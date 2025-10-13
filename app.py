@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 import os
 
-os.chdir("C:/Users/vikas/OneDrive/Desktop/vikasji")
+
 
 model = joblib.load("lightgbm_model.pkl")
 scaler = joblib.load("scaler.pkl")
